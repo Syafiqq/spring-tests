@@ -1,2 +1,4 @@
 rootProject.name = 'spring-test-001'
+include 't-001'
+findProject(':t-001')?.name = 't001'
 
