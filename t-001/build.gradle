@@ -33,5 +33,6 @@ dependencies {
     implementation 'org.springframework:spring-webflux:5.1.7.RELEASE'
     implementation 'org.springframework:spring-webmvc:5.1.7.RELEASE'
     implementation 'org.springframework:spring-websocket:5.1.7.RELEASE'
+    compileOnly 'org.projectlombok:lombok:1.18.8'
     testImplementation 'junit:junit:4.12'
 }
